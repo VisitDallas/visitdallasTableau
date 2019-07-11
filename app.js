@@ -15,4 +15,8 @@ app.get("/sales/metrics07092019", function(req, res){
 	res.render("metrics07092019");
 });
 
+app.get("/sales/metrics07112019", function(req, res){
+	res.render("metrics07112019");
+});
+
 app.listen(process.env.PORT, process.env.IP);
