@@ -23,4 +23,8 @@ app.get("/sales/definiteslast5years", function(req, res){
 	res.render("definitesLast5Years");
 });
 
+app.get("/sales/1", function(req,res){
+	res.render("1");
+});
+
 app.listen(process.env.PORT, process.env.IP);
