@@ -35,4 +35,8 @@ app.get("/marketing/mm81219", function(req, res){
 	res.render("mm81219");
 });
 
+app.get("/marketing/mm81219", function(req, res){
+	res.render("mm819219");
+});
+
 app.listen(process.env.PORT, process.env.IP);
