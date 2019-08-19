@@ -35,7 +35,7 @@ app.get("/marketing/mm81219", function(req, res){
 	res.render("mm81219");
 });
 
-app.get("/marketing/mm81219", function(req, res){
+app.get("/marketing/mm819219", function(req, res){
 	res.render("mm819219");
 });
 
