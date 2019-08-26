@@ -27,6 +27,10 @@ app.get("/sales/1", function(req,res){
 	res.render("1");
 });
 
+app.get("/sales/sampleLocationsMap", function(req, res){
+	res.render("sampleLocationsMap");
+});
+
 app.get("/marketing", function(req, res){
 	res.render("marketinghome");
 });
