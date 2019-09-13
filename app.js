@@ -19,6 +19,10 @@ app.get("/sales/metrics07112019", function(req, res){
 	res.render("metrics07112019");
 });
 
+app.get("/sales/5", function(req, res){
+	res.render("5");
+});
+
 app.get("/sales/definiteslast5years", function(req, res){
 	res.render("definitesLast5Years");
 });
