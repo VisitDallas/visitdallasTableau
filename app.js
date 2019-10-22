@@ -51,8 +51,8 @@ app.get("/marketing/mm819219", function(req, res){
 	res.render("mm819219");
 });
 
-app.get("/marketing/googleAds2018", function(req, res){
-	res.render("googleAds2018");
+app.get("/marketing/googleAds2019", function(req, res){
+	res.render("googleAds2019");
 });
 
 app.listen(process.env.PORT, process.env.IP);
