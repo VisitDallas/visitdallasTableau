@@ -23,6 +23,10 @@ app.get("/sales/5", function(req, res){
 	res.render("5");
 });
 
+app.get("/sales/6", function(req, res){
+	res.render("6");
+});
+
 app.get("/sales/definiteslast5years", function(req, res){
 	res.render("definitesLast5Years");
 });
