@@ -59,4 +59,8 @@ app.get("/marketing/googleAds2019", function(req, res){
 	res.render("googleAds2019");
 });
 
+app.get("/marketing/7", function(req, res){
+	res.render("7");
+});
+
 app.listen(process.env.PORT, process.env.IP);
