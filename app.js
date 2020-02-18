@@ -67,4 +67,8 @@ app.get("/marketing/8", function(req, res){
 	res.render("8");
 });
 
+app.get("/marketing/9", function(req, res){
+	res.render("9");
+});
+
 app.listen(process.env.PORT, process.env.IP);
